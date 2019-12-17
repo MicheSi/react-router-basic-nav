@@ -7,14 +7,14 @@ const App = () => (
   <div>
     <Navigation />
     <Route exact path='/'>
-    <Home />
-  </Route>
-  <Route exact path='/about'>
-    <About />
-  </Route>
-  <Route path='/contact'>
-    <Contact />
-  </Route>
+      <Home />
+    </Route>
+    <Route exact path='/about'>
+      <About />
+    </Route>
+    <Route path='/contact'>
+      <Contact />
+    </Route>
   </div>
 );
 
